@@ -1,7 +1,7 @@
 
 # @rowanmanning/response-render-middleware
 
-A small convenience utility to generate Express middleware which renders a view.
+A small convenience utility to generate [Express](https://expressjs.com/) middleware which renders a view.
 
 ```js
 app.get('/', render('home'));

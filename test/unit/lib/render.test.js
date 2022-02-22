@@ -1,7 +1,7 @@
 'use strict';
 
-const assert = require('proclaim');
-const sinon = require('sinon');
+const {assert} = require('chai');
+const td = require('testdouble');
 
 describe('lib/render', () => {
 	let render;
@@ -32,14 +32,13 @@ describe('lib/render', () => {
 			beforeEach(() => {
 				mockRequest = {};
 				mockResponse = {
-					render: sinon.spy()
+					render: td.func()
 				};
 				middleware(mockRequest, mockResponse);
 			});
 
 			it('calls `response.render` with the `view` and `locals`', () => {
-				assert.calledOnce(mockResponse.render);
-				assert.calledWithExactly(mockResponse.render, 'mock-view', 'mock-locals');
+				td.verify(mockResponse.render('mock-view', 'mock-locals'), {times: 1});
 			});
 
 		});
@@ -57,14 +56,13 @@ describe('lib/render', () => {
 				beforeEach(() => {
 					mockRequest = {};
 					mockResponse = {
-						render: sinon.spy()
+						render: td.func()
 					};
 					middleware(mockRequest, mockResponse);
 				});
 
 				it('calls `response.render` with the `view` and an empty object', () => {
-					assert.calledOnce(mockResponse.render);
-					assert.calledWith(mockResponse.render, 'mock-view', {});
+					td.verify(mockResponse.render('mock-view', {}), {times: 1});
 				});
 
 			});

@@ -1,5 +1,18 @@
 # Changelog
 
+### [2.0.1](https://github.com/rowanmanning/response-render-middleware/compare/v2.0.0...v2.0.1) (2022-05-25)
+
+
+### Miscellaneous
+
+* bump @commitlint/cli from 16.2.4 to 17.0.0 ([d5675c2](https://github.com/rowanmanning/response-render-middleware/commit/d5675c2c281678951f101ec6e7d5f748b407258a))
+* bump @commitlint/cli from 17.0.0 to 17.0.1 ([ad88ac0](https://github.com/rowanmanning/response-render-middleware/commit/ad88ac0befd63c8335a947e542379dbfe301c4ad))
+* bump @commitlint/config-conventional from 16.2.4 to 17.0.0 ([c4a799f](https://github.com/rowanmanning/response-render-middleware/commit/c4a799fd7f8d6788717faaa9882bf1ae55aaaaca))
+* bump @rowanmanning/eslint-config from 3.4.0 to 3.5.0 ([7d3b269](https://github.com/rowanmanning/response-render-middleware/commit/7d3b26935db628b07e56d376bc48d4abd551c452))
+* bump eslint from 8.14.0 to 8.15.0 ([bb968d2](https://github.com/rowanmanning/response-render-middleware/commit/bb968d25d91b644dd95aa1156b38f888063ecb37))
+* bump eslint from 8.15.0 to 8.16.0 ([e130970](https://github.com/rowanmanning/response-render-middleware/commit/e130970d2b92367a46b482a90bb998e55f78994a))
+* bump husky from 7.0.4 to 8.0.1 ([0e8b47c](https://github.com/rowanmanning/response-render-middleware/commit/0e8b47c99fa3c74bde8b7b0d3b79d11626bd2563))
+
 ## [2.0.0](https://github.com/rowanmanning/response-render-middleware/compare/v1.1.0...v2.0.0) (2022-05-02)
 
 

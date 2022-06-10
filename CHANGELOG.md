@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.1.0](https://github.com/rowanmanning/response-render-middleware/compare/v2.0.1...v2.1.0) (2022-06-10)
+
+
+### Features
+
+* ensure typescript types are always valid ([a74e6e4](https://github.com/rowanmanning/response-render-middleware/commit/a74e6e4244209d754466d698855399122c0824ea))
+
+
+### Miscellaneous
+
+* bump @commitlint/cli from 17.0.1 to 17.0.2 ([36fd223](https://github.com/rowanmanning/response-render-middleware/commit/36fd2235cacd25a231b0d48dbc310122d0751b36))
+* bump @commitlint/config-conventional from 17.0.0 to 17.0.2 ([7a98144](https://github.com/rowanmanning/response-render-middleware/commit/7a98144089a2a5ceb8f28aac5070a9ac7910af6f))
+* bump @rowanmanning/eslint-config from 3.5.0 to 4.0.2 ([32cdc44](https://github.com/rowanmanning/response-render-middleware/commit/32cdc44ad79458cbd530cc3b097ce07724f7e68a))
+* bump eslint from 8.16.0 to 8.17.0 ([c02838e](https://github.com/rowanmanning/response-render-middleware/commit/c02838eec3f6076487c69fa8fc93bd3b0eef2074))
+* fix eslint issues ([76ba1ab](https://github.com/rowanmanning/response-render-middleware/commit/76ba1ab0d8214fca6b614dcf6e834eac9ca868d1))
+
 ### [2.0.1](https://github.com/rowanmanning/response-render-middleware/compare/v2.0.0...v2.0.1) (2022-05-25)
 
 

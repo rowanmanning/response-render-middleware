@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/rowanmanning/response-render-middleware/compare/v2.1.0...v2.1.1) (2022-07-09)
+
+
+### Bug Fixes
+
+* hide the misc changelog section ([4d58fe7](https://github.com/rowanmanning/response-render-middleware/commit/4d58fe7cb703bba8cd695c7fba21d79f2e61a749))
+
 ## [2.1.0](https://github.com/rowanmanning/response-render-middleware/compare/v2.0.1...v2.1.0) (2022-06-10)
 
 

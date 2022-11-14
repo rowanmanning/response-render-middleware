@@ -71,4 +71,10 @@ describe('lib/render', () => {
 
 	});
 
+	describe('.default', () => {
+		it('aliases the module exports', () => {
+			assert.strictEqual(render, render.default);
+		});
+	});
+
 });

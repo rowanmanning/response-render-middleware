@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.2](https://github.com/rowanmanning/response-render-middleware/compare/v2.1.1...v2.1.2) (2022-11-14)
+
+
+### Bug Fixes
+
+* improve TypeScript compatibility ([dddb130](https://github.com/rowanmanning/response-render-middleware/commit/dddb1309968dc94949a4e4aef6055ac47230f775))
+
 ## [2.1.1](https://github.com/rowanmanning/response-render-middleware/compare/v2.1.0...v2.1.1) (2022-07-09)
 
 

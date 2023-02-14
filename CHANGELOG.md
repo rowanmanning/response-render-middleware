@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.4](https://github.com/rowanmanning/response-render-middleware/compare/v2.1.3...v2.1.4) (2023-02-14)
+
+
+### Bug Fixes
+
+* support npm v9 ([20e8b7b](https://github.com/rowanmanning/response-render-middleware/commit/20e8b7bb9d4db27131e0f5e7151e56443518bb8e))
+
 ## [2.1.3](https://github.com/rowanmanning/response-render-middleware/compare/v2.1.2...v2.1.3) (2023-01-08)
 
 

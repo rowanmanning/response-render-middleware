@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.0.0](https://github.com/rowanmanning/response-render-middleware/compare/v2.1.4...v3.0.0) (2023-03-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop official support for npm v7
+* drop support for Node.js 14
+
+### Miscellaneous
+
+* drop official support for npm v7 ([fe104bc](https://github.com/rowanmanning/response-render-middleware/commit/fe104bca5d982de0fb478b361ae11a86b14dc0ef))
+* drop support for Node.js 14 ([7bc6905](https://github.com/rowanmanning/response-render-middleware/commit/7bc690535803c2461333d8062c37042c5f6a407a))
+
 ## [2.1.4](https://github.com/rowanmanning/response-render-middleware/compare/v2.1.3...v2.1.4) (2023-02-14)
 
 

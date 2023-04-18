@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/rowanmanning/response-render-middleware/compare/v3.0.0...v3.0.1) (2023-04-18)
+
+
+### Bug Fixes
+
+* add support for Node.js 20 ([e99034b](https://github.com/rowanmanning/response-render-middleware/commit/e99034b98a640b051d8a383a576d5866e95278ff))
+
 ## [3.0.0](https://github.com/rowanmanning/response-render-middleware/compare/v2.1.4...v3.0.0) (2023-03-25)
 
 

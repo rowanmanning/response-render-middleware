@@ -1,6 +1,6 @@
 'use strict';
 
-const {assert} = require('chai');
+const assert = require('node:assert');
 const td = require('testdouble');
 
 describe('lib/render', () => {
@@ -11,7 +11,7 @@ describe('lib/render', () => {
 	});
 
 	it('is a function', () => {
-		assert.isFunction(render);
+		assert.strictEqual(typeof render, 'function');
 	});
 
 	describe('render(view, locals)', () => {
@@ -22,7 +22,7 @@ describe('lib/render', () => {
 		});
 
 		it('returns a function', () => {
-			assert.isFunction(middleware);
+			assert.strictEqual(typeof middleware, 'function');
 		});
 
 		describe('middleware(request, response)', () => {

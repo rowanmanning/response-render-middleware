@@ -1,5 +1,37 @@
 # Changelog
 
+## 3.0.2 (2023-07-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop official support for npm v7
+* drop support for Node.js 14
+* drop support for Node.js versions below 14
+* mocha no longer supports Node.js v12
+
+### Features
+
+* ensure typescript types are always valid ([a74e6e4](https://github.com/rowanmanning/response-render-middleware/commit/a74e6e4244209d754466d698855399122c0824ea))
+
+
+### Bug Fixes
+
+* add support for Node.js 20 ([e99034b](https://github.com/rowanmanning/response-render-middleware/commit/e99034b98a640b051d8a383a576d5866e95278ff))
+* bump json5 from 2.2.1 to 2.2.3 ([71df9ef](https://github.com/rowanmanning/response-render-middleware/commit/71df9ef9a8af9c35a3bb797462508465d00381f1))
+* hide the misc changelog section ([4d58fe7](https://github.com/rowanmanning/response-render-middleware/commit/4d58fe7cb703bba8cd695c7fba21d79f2e61a749))
+* improve TypeScript compatibility ([dddb130](https://github.com/rowanmanning/response-render-middleware/commit/dddb1309968dc94949a4e4aef6055ac47230f775))
+* sort out broken releases ([2939454](https://github.com/rowanmanning/response-render-middleware/commit/2939454ae38cc68c1e9be98ee28843073602a155))
+* support npm v9 ([20e8b7b](https://github.com/rowanmanning/response-render-middleware/commit/20e8b7bb9d4db27131e0f5e7151e56443518bb8e))
+
+
+### Miscellaneous
+
+* bump mocha from 9.2.2 to 10.0.0 ([beacf28](https://github.com/rowanmanning/response-render-middleware/commit/beacf2811f259e74a8325b1fe1fe2b050cc63577))
+* drop official support for npm v7 ([fe104bc](https://github.com/rowanmanning/response-render-middleware/commit/fe104bca5d982de0fb478b361ae11a86b14dc0ef))
+* drop support for Node.js 14 ([7bc6905](https://github.com/rowanmanning/response-render-middleware/commit/7bc690535803c2461333d8062c37042c5f6a407a))
+* drop support for Node.js versions below 14 ([0ba1892](https://github.com/rowanmanning/response-render-middleware/commit/0ba18922e273b2af32929101b85fad999f857a23))
+
 ## [3.0.1](https://github.com/rowanmanning/response-render-middleware/compare/v3.0.0...v3.0.1) (2023-04-18)
 
 

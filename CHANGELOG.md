@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/rowanmanning/response-render-middleware/compare/v3.0.2...v4.0.0) (2023-09-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop support for Node.js 16
+
+### Miscellaneous
+
+* drop support for Node.js 16 ([432f814](https://github.com/rowanmanning/response-render-middleware/commit/432f8142adbe5b83f6b62faf885fef9ee9dd0477))
+
 ## 3.0.2 (2023-07-25)
 
 

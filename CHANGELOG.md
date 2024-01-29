@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.0](https://github.com/rowanmanning/response-render-middleware/compare/v4.0.0...v4.1.0) (2024-01-29)
+
+
+### Features
+
+* add official support for npm 10 ([03fa041](https://github.com/rowanmanning/response-render-middleware/commit/03fa0415f8627eb8f8d139bc3e8242efc261205c))
+
 ## [4.0.0](https://github.com/rowanmanning/response-render-middleware/compare/v3.0.2...v4.0.0) (2023-09-11)
 
 

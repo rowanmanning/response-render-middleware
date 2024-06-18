@@ -38,13 +38,11 @@ describe('lib/render', () => {
 			});
 
 			it('calls `response.render` with the `view` and `locals`', () => {
-				td.verify(mockResponse.render('mock-view', 'mock-locals'), {times: 1});
+				td.verify(mockResponse.render('mock-view', 'mock-locals'), { times: 1 });
 			});
-
 		});
 
 		describe('when `locals` is not defined', () => {
-
 			beforeEach(() => {
 				middleware = render('mock-view');
 			});
@@ -62,13 +60,10 @@ describe('lib/render', () => {
 				});
 
 				it('calls `response.render` with the `view` and an empty object', () => {
-					td.verify(mockResponse.render('mock-view', {}), {times: 1});
+					td.verify(mockResponse.render('mock-view', {}), { times: 1 });
 				});
-
 			});
-
 		});
-
 	});
 
 	describe('.default', () => {
@@ -76,5 +71,4 @@ describe('lib/render', () => {
 			assert.strictEqual(render, render.default);
 		});
 	});
-
 });

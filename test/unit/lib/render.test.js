@@ -1,7 +1,10 @@
 'use strict';
 
+const { afterEach, beforeEach, describe, it } = require('node:test');
 const assert = require('node:assert');
 const td = require('testdouble');
+
+td.config({ ignoreWarnings: true });
 
 describe('lib/render', () => {
 	let render;
@@ -9,6 +12,8 @@ describe('lib/render', () => {
 	beforeEach(() => {
 		render = require('../../../lib/render');
 	});
+
+	afterEach(() => td.reset());
 
 	it('is a function', () => {
 		assert.strictEqual(typeof render, 'function');

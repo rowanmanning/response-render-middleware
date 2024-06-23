@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.0](https://github.com/rowanmanning/response-render-middleware/compare/v4.1.0...v4.2.0) (2024-06-23)
+
+
+### Features
+
+* add Node.js 22 support ([5f4b184](https://github.com/rowanmanning/response-render-middleware/commit/5f4b184ae0b2b95266403304c60e2a74a89473e9))
+
 ## [4.1.0](https://github.com/rowanmanning/response-render-middleware/compare/v4.0.0...v4.1.0) (2024-01-30)
 
 

@@ -1,5 +1,16 @@
 # Changelog
 
+## [5.0.0](https://github.com/rowanmanning/response-render-middleware/compare/v4.2.1...v5.0.0) (2025-03-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop Node.js 18
+
+### Miscellaneous Chores
+
+* drop Node.js 18 ([e25b58c](https://github.com/rowanmanning/response-render-middleware/commit/e25b58ced6d6af37eddacea9b96886b2358c51e5))
+
 ## [4.2.1](https://github.com/rowanmanning/response-render-middleware/compare/v4.2.0...v4.2.1) (2024-07-27)
 
 
